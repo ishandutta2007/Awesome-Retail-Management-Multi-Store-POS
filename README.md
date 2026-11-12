@@ -9,14 +9,15 @@
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Zoho POS](#zoho-pos)
-  - [Lightspeed Retail (incl. Vend)](#lightspeed-retail-incl-vend)
   - [Shopify POS](#shopify-pos)
   - [Square Retail](#square-retail)
-  - [Brightpearl](#brightpearl)
-  - [Cin7](#cin7)
+  - [Zoho POS](#zoho-pos)
+  - [Brightpearl (Sage)](#brightpearl)
   - [Epicor Eagle](#epicor-eagle)
+  - [Lightspeed Retail (incl. Vend)](#lightspeed-retail-incl-vend)
+  - [Cin7](#cin7)
 - [Open-Source Software](#-open-source-software)
   - [SeoSamba POS](#seosamba-pos)
   - [ERPNext POS](#erpnext-pos)
@@ -25,6 +26,12 @@
   - [FinOpenPOS](#finopenpos)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global Retail Management System (RMS) and Point of Sale (POS) software market is currently valued at approximately **$16B–$22B** and is projected to surpass **$45B–$60B+ by 2032**, expanding at a solid compound annual growth rate (**CAGR of ~10%–13%**). The sector exhibits a **highly fragmented landscape at the base**—driven by millions of independent retailers, specialized vertical niches, and regional fiscalization laws—coexisting with **moderate consolidation at the top**, where major payment/commerce giants (Shopify, Block/Square, Lightspeed) drive an ecosystem lock-in through integrated payments, unified omnichannel commerce, and automated backend logistics.
 
 ---
 
