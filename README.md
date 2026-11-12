@@ -32,37 +32,49 @@
 
 Commercial, cloud-hosted Retail Management and Multi-Store POS platforms. These are not open-source but are included as reference points for feature comparison.
 
-### Zoho POS
+| Platform | Starting Pricing | Free Tier / Trial Limit | Key Highlights |
+|---|---|---|---|
+| **Shopify POS** | $39/mo (Basic Shopify, monthly) or $29/mo (billed annually) for POS Lite; $89/mo per location for POS Pro | 3-day free trial (no card required) + promotional trial pricing; live in-person checkout & transactions require selecting a paid Shopify plan. Free POS Lite included with all plans. | Omnichannel POS unifying online and multi-store retail with centralized back office supporting 1,000+ locations, BOPIS, and gift cards. |
+| **Square Retail** | $0/mo (Free tier); $49/mo per location for Square Retail Plus | Free forever plan with no monthly software fee; charges 2.6% + 15¢ per tap/dip/swipe transaction. Limited to single-location basic inventory, no barcode printing or purchase orders. 30-day free trial on Plus. | Accessible entry point with cross-location returns, catalog sync across locations, and omnichannel pickup/delivery. |
+| **Zoho POS** | ₹649/mo (~$15–$20/mo) for Standard plan (billed annually) | 15-day free trial (full feature access, no credit card required); automatically switches to Forever Free plan capped at 1 register, 1 user, and 50 transactions/sales orders per month. | Multi-location inventory management with inter-store transfer orders, SKU variant tracking, and seamless Zoho ecosystem accounting/CRM integration. |
+| **Lightspeed Retail (incl. Vend)** | $109/mo (month-to-month) or $89/mo (billed annually) for Basic/Lite plan | 14-day free trial (full feature access, no credit card required); lower plans include 1 register license and enforce a monthly sales turnover threshold (~$20,000/mo) before required tier upgrade. | Deep inventory management and purchase order tracking engineered for inventory-heavy, high-SKU multi-store retailers. |
+| **Cin7** | $349/mo (Standard plan, billed monthly or annually) | 14-day free trial (full feature access, no credit card required); test data deleted after 14 days if not upgraded. Capped at 5 users, 6,000 sales orders/year, and 2 integrations. No permanently free tier. | Built for multi-channel product sellers, offering POS workflows with 450+ e-commerce, EDI, 3PL, and accounting integrations. |
+| **Brightpearl (Sage)** | ~$1,000/mo (custom quote-based starting tier; typically $18,000–$35,000+/year) | No free trial or free tier; customized live product demo and architectural consultation only due to complex ERP data migration. Unlimited user seats included. | Enterprise retail operating system (ROS) combining multi-location POS, WMS barcode dispatch, automated purchasing, and integrated accounting. |
+| **Epicor Eagle** | ~$500+/mo (custom quote-based enterprise subscription + onboarding fees) | No free trial or free tier; personalized sales-guided demo and sandbox walkthrough only. | Enterprise-grade retail management system designed for multi-store hardware, automotive aftermarket, lumber, and high-volume retail chains. |
+
+### Platform Deep-Dives
+
+#### Zoho POS
 **Type:** Retail POS with centralized multi-location inventory  
 Zoho POS provides a centralized dashboard for managing products, stock levels, and sales across multiple locations [citation:15]. Key multi-store capabilities include configuring locations, mapping products to each location, defining user access per location, and initiating **transfer orders** to move stock between stores or from a central warehouse [citation:15]. Real-time inventory tracking includes threshold limits and restock alerts, with reports on stock summaries across locations and store-level sales performance [citation:15]. It supports item variations with separate SKUs, prices, and stock tracking per variant, plus barcode generation (SKU, EAN, UPC, serial/batch, and embedded price/weight barcodes) [citation:15].  
 **Best for:** Retailers already in the Zoho ecosystem wanting centralized multi-location inventory with transfer orders and variation-level tracking.
 
-### Lightspeed Retail (incl. Vend)
+#### Lightspeed Retail (incl. Vend)
 **Type:** Retail POS with advanced inventory and multi-store controls  
-Lightspeed Retail (which absorbed Vend) provides retail-focused POS with inventory management, reporting, and multi-location support . Pricing starts around $109/month, with multi-location plans scaling higher [citation:4]. **Important caveat:** User reviews report frustration with payment processing lock-in—one reviewer was assured they could use their own processor but later faced a monthly fee of $246.66, suggesting sales promises may not match contract terms [citation:4]. The platform is positioned for established, inventory-heavy retailers needing stronger multi-store inventory control than Square .  
+Lightspeed Retail (which absorbed Vend) provides retail-focused POS with inventory management, reporting, and multi-location support . Pricing starts around $89–$109/month, with multi-location plans scaling higher [citation:4]. **Important caveat:** User reviews report frustration with payment processing lock-in—one reviewer was assured they could use their own processor but later faced a monthly fee of $246.66, suggesting sales promises may not match contract terms [citation:4]. The platform is positioned for established, inventory-heavy retailers needing stronger multi-store inventory control than Square .  
 **Best for:** Established retailers with complex inventory needs wanting mature multi-store controls, with careful contract review for payment processing terms.
 
-### Shopify POS
+#### Shopify POS
 **Type:** Omnichannel POS with unified online/offline inventory  
-Shopify POS integrates in-store and online sales with a centralized back office supporting **1,000+ locations** [citation:5]. Core features include omnichannel capabilities like buy-online-pickup-in-store, multichannel gift cards, and unified reporting [citation:5]. Pricing starts at SGD 39/month (Basic) with an additional SGD 129/month per location for POS Pro, which unlocks unlimited staff accounts, inventory management, customer profiles, and retail analytics [citation:5]. It is best for retailers wanting a single system for e-commerce and physical stores, with strong app ecosystem extensibility.  
+Shopify POS integrates in-store and online sales with a centralized back office supporting **1,000+ locations** [citation:5]. Core features include omnichannel capabilities like buy-online-pickup-in-store, multichannel gift cards, and unified reporting [citation:5]. Pricing starts at $39/month (Basic) with an additional $89/month per location for POS Pro, which unlocks unlimited staff accounts, inventory management, customer profiles, and retail analytics [citation:5]. It is best for retailers wanting a single system for e-commerce and physical stores, with strong app ecosystem extensibility.  
 **Best for:** Retailers with both online and physical presence wanting unified inventory and customer data across channels.
 
-### Square Retail
+#### Square Retail
 **Type:** Retail POS with free tier and cross-location operations  
-Square Retail offers a **free tier** with basic inventory tools, plus Plus at $79/month per location and Premium custom pricing [citation:6]. Multi-store capabilities include **cross-location returns** (inventory syncs so returns can be accepted anywhere) and **cross-location order management** (fulfill from another location if out of stock) [citation:6]. Reporting covers sales by location, product, category, inventory adjustments, cost of goods sold, and profit potential by location [citation:6].  
+Square Retail offers a **free tier** with basic inventory tools, plus Plus at $49/month per location and Premium custom pricing [citation:6]. Multi-store capabilities include **cross-location returns** (inventory syncs so returns can be accepted anywhere) and **cross-location order management** (fulfill from another location if out of stock) [citation:6]. Reporting covers sales by location, product, category, inventory adjustments, cost of goods sold, and profit potential by location [citation:6].  
 **Best for:** Small to mid-sized retailers wanting a free entry point with strong cross-location returns and order fulfillment.
 
-### Brightpearl
+#### Brightpearl
 **Type:** Retail operations platform with POS and accounting  
 Brightpearl (Sage Group) combines inventory, orders, warehouses, accounting, fulfillment, purchasing, POS, and CRM in a centralized system [citation:8]. It emphasizes automation (customers save two months/year on average) and real-time accounting integration, with a barcode-scanning WMS and inventory planner for identifying overstocked SKUs [citation:8]. Positioned for e-commerce and wholesale retailers with high order volume.  
 **Best for:** Multichannel retailers needing unified inventory, accounting, and POS with strong automation.
 
-### Cin7
+#### Cin7
 **Type:** Inventory and POS with deep e-commerce integrations  
 Cin7 combines inventory management with POS, omnichannel, and warehouse workflows, supporting 450+ integrations including Shopify, Amazon, and QuickBooks [citation:11]. POS features include order routing, customer loyalty, promotions, and stock visibility at the register [citation:11]. Suited for multichannel businesses in fashion, beauty, electronics, and F&B needing unified stock across sales channels and locations.  
 **Best for:** Multichannel retailers wanting inventory-centric POS with broad e-commerce and marketplace connectivity.
 
-### Epicor Eagle
+#### Epicor Eagle
 **Type:** Retail management with POS and inventory visibility  
 Epicor Eagle provides retail management including POS, inventory maintenance, purchasing, and reporting. Release 35.1 added QuickFind for inventory and purchase orders, a Future Order Quantity column for stock visibility, and enhanced gift card compliance (barcode swipe/scan for anti-fraud laws) . Positioned for established retailers needing mature inventory and purchasing workflows.  
 **Best for:** Established retailers wanting a proven retail management platform with strong inventory and purchasing controls.
