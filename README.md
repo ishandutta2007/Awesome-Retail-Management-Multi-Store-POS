@@ -19,11 +19,16 @@
   - [Lightspeed Retail (incl. Vend)](#lightspeed-retail-incl-vend)
   - [Cin7](#cin7)
 - [Open-Source Software](#-open-source-software)
-  - [SeoSamba POS](#seosamba-pos)
-  - [ERPNext POS](#erpnext-pos)
   - [Odoo POS](#odoo-pos)
-  - [OSPOS](#ospos)
+  - [ERPNext POS](#erpnext-pos)
+  - [Open Source Point of Sale (OSPOS)](#open-source-point-of-sale-ospos)
+  - [NexoPOS](#nexopos)
+  - [Store-POS](#store-pos)
+  - [Lakasir POS](#lakasir-pos)
+  - [TailPOS](#tailpos)
+  - [POS Awesome](#pos-awesome)
   - [FinOpenPOS](#finopenpos)
+  - [SeoSamba POS](#seosamba-pos)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
 
@@ -90,48 +95,81 @@ Epicor Eagle provides retail management including POS, inventory maintenance, pu
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Retail Management and Multi-Store POS tools. The open-source ecosystem spans **modern full-stack POS applications**, **ERP-integrated POS modules**, and **lightweight PHP-based registers**.
+Self-hosted, community-driven Retail Management and Multi-Store POS tools sorted by GitHub star count. The open-source ecosystem spans **ERP-integrated retail and POS suites**, **modern full-stack web/desktop POS applications**, and **offline-first store cashiers**.
 
-### SeoSamba POS
-**Stack:** iOS/iPadOS app + Cloud/Self-hosted backend | **License:** Free & Open Source (self-hosted)  
-SeoSamba POS is a ready-to-use omnichannel sales app with **multi-location inventory management**, unified customer CRM, and real-time inventory tracking across stores and web channels [citation:1][citation:13]. It supports tap-to-pay, Apple Pay, Google Pay, card readers, and cash, with AI-powered product descriptions, print/email receipts, and review prompts [citation:1]. **Deployment options:** free self-hosted or optional $25/month cloud hosting after a 14-day trial [citation:1][citation:13]. It includes full API access, open architecture, and supports 195+ countries and 135+ currencies [citation:1].  
-**Best for:** Retailers wanting a free, open-source, Stripe-ready POS with multi-location inventory and omnichannel sync, accepting the iOS/iPadOS app-centric interface.
+### Odoo POS [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
+**Stack:** Python / PostgreSQL / Owl.js | **License:** LGPL-3.0 (Community) | **Repository:** [odoo/odoo](https://github.com/odoo/odoo)  
+Odoo's Point of Sale module is an enterprise-grade POS application deeply wired into Odoo's broader ERP ecosystem. It natively supports multi-company and multi-warehouse stock replenishment, barcoded checkout, floor/table management for food service, split billing, customer loyalty, and offline operation with automatic sync once reconnected.  
+**Best for:** Organizations wanting a complete retail management ecosystem uniting multi-location retail registers with warehouse inventory, purchase orders, accounting, and CRM.
 
-### ERPNext POS
-**Stack:** Python / Frappe Framework / MariaDB | **License:** GPL-3.0  
-ERPNext includes a POS module that handles **retail transactions linked to inventory and accounting** [citation:2]. The workflow covers opening a session, adding items, creating a POS invoice, and closing the session [citation:2]. For multi-store operations, ERPNext's broader ERP capabilities provide centralized inventory, accounting, and purchasing across locations. **Important caveat:** The POS module is retail-focused—it does not natively include restaurant-specific features like table management, coursing, or kitchen routing [citation:2]. Deployment via Docker is possible, though the project marks its quick Docker example as a disposable demo [citation:2].  
-**Best for:** Organizations already using or planning to adopt ERPNext wanting POS integrated with full ERP inventory and accounting, accepting that it is retail-general rather than retail-specialized.
+### ERPNext POS [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
+**Stack:** Python / Frappe Framework / MariaDB / Vue.js | **License:** GPL-3.0 | **Repository:** [frappe/erpnext](https://github.com/frappe/erpnext)  
+ERPNext provides a clean POS cashier workflow linked directly to real-time inventory ledger accounts, serial/batch tracking, multi-currency price lists, and automated POS invoice reconciliation. Opening and closing cashier shifts track cash-in-drawer variances, while multi-branch retailers benefit from centralized stock transfer orders and purchase replenishments.  
+**Best for:** Small to mid-sized multi-store retailers desiring a modern, 100% open-source ERP backbone with seamless inventory and ledger accounting.
 
-### Odoo POS
-**Stack:** Python / PostgreSQL | **License:** LGPL-3.0 (Community)  
-Odoo's Point of Sale module (part of its broader ERP suite) provides POS functionality with multi-store support through Odoo's multi-company and multi-location inventory features. The **restaurant module** adds bill printing before payment, order splitting, and kitchen/bar printer routing [citation:2]. **Trade-off:** Odoo is a full ERP—you adopt the broader platform to get its POS. The module's LGPL-3 license applies to that module, but paid apps and hosted plans are separate [citation:2].  
-**Best for:** Organizations wanting POS integrated with a full ERP suite (inventory, accounting, CRM), particularly those already using Odoo.
+### Open Source Point of Sale (OSPOS) [![GitHub stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers)
+**Stack:** PHP / CodeIgniter / MySQL / Bootstrap | **License:** MIT (with footer requirement) | **Repository:** [opensourcepos/opensourcepos](https://github.com/opensourcepos/opensourcepos)  
+Open Source Point of Sale (OSPOS) is a proven, battle-tested web-based POS system designed for small retail counters. It offers catalog management, barcode generation, stock adjustments, customer gift cards, detailed cashier daily summaries, multi-tier user role permissions, and restaurant table modes.  
+**Best for:** Small retail stores and independent shops seeking a lightweight, straightforward LAMP-stack POS system that can be self-hosted on shared hosting or a local server.
 
-### OSPOS
-**Stack:** PHP / MySQL/MariaDB | **License:** MIT (with footer requirement)  
-Open Source Point of Sale (OSPOS) provides sales, inventory, receipts, multiuser permissions, and **restaurant tables** [citation:2]. It runs on PHP with MySQL or MariaDB. **Licensing note:** The project describes its license as MIT with an added requirement to keep its footer visible and unchanged—read these terms before rebranding or modifying the interface [citation:2]. It is a starting point for a demo, but the installer should demonstrate modifiers, split checks, and kitchen workflow in the chosen release [citation:2].  
-**Best for:** Small retailers or restaurants wanting a lightweight, free PHP-based POS with basic inventory and table support, accepting the footer visibility requirement.
+### NexoPOS [![GitHub stars](https://img.shields.io/github/stars/Blair2004/NexoPOS?style=social&color=white)](https://github.com/Blair2004/NexoPOS/stargazers)
+**Stack:** PHP / Laravel / Vue.js / Tailwind CSS / MySQL | **License:** GPL-3.0 | **Repository:** [Blair2004/NexoPOS](https://github.com/Blair2004/NexoPOS)  
+NexoPOS 4 is a modular web POS and retail management system engineered on modern Laravel and Vue.js. It features multi-store stock management, purchase orders, cash drawer reconciliation, customer layaway orders, procurement tracking, and an extensible module architecture for multi-outlet expansion.  
+**Best for:** Businesses wanting a dedicated, modern PHP/Laravel multi-store retail register with modular extensibility and clean responsive UI.
 
-### FinOpenPOS
-**Stack:** Next.js 16 / React 19 / PGLite (embedded PostgreSQL) | **License:** Open Source  
-FinOpenPOS is an open-source POS and inventory management system built on the newest stack (Next.js 16, React 19) with **embedded PostgreSQL via PGLite**—zero external database dependencies [citation:14]. It is a Turborepo monorepo with a **Brazilian fiscal module (NF-e/NFC-e)** as a standalone package [citation:14]. Running `bun install && bun run dev` gets a working POS immediately. **Limitation:** The fiscal module is Brazil-specific, though it can be swapped or ignored for other markets [citation:14].  
-**Best for:** Developers wanting a modern, zero-dependency POS foundation on the newest React/Next.js stack, particularly in Brazilian markets or those willing to replace the fiscal module.
+### Store-POS [![GitHub stars](https://img.shields.io/github/stars/tngoman/Store-POS?style=social&color=white)](https://github.com/tngoman/Store-POS/stargazers)
+**Stack:** Electron / React / Node.js / Express / SQLite | **License:** MIT | **Repository:** [tngoman/Store-POS](https://github.com/tngoman/Store-POS)  
+Store-POS is a modern desktop POS and store management suite built with Electron and React. Designed for local area network (LAN) operations, it connects multiple cashier terminals to a local central database server without cloud dependency, supporting barcode scanning, receipt printing, inventory stock logs, and multi-user roles.  
+**Best for:** Single-store or LAN-networked retail outlets wanting a fast, offline-resilient desktop cashier terminal with zero cloud latency.
+
+### Lakasir POS [![GitHub stars](https://img.shields.io/github/stars/lakasir/lakasir?style=social&color=white)](https://github.com/lakasir/lakasir/stargazers)
+**Stack:** Go / Vue.js / Flutter / SQLite / MySQL | **License:** GPL-3.0 | **Repository:** [lakasir/lakasir](https://github.com/lakasir/lakasir)  
+Lakasir is a lightweight cross-platform point-of-sale platform providing mobile and web interfaces for small retail merchants. It features quick product lookup, transaction logging, simple invoice generation, thermal receipt printing, and cashier ledger reports designed for micro-retailers and market stalls.  
+**Best for:** Micro-retailers and pop-up stores needing an ultra-lightweight POS that runs quickly on low-spec hardware and mobile devices.
+
+### TailPOS [![GitHub stars](https://img.shields.io/github/stars/bailabs/tailpos?style=social&color=white)](https://github.com/bailabs/tailpos/stargazers)
+**Stack:** React Native / CouchDB / PouchDB / Python (ERPNext sync) | **License:** GPL-3.0 | **Repository:** [bailabs/tailpos](https://github.com/bailabs/tailpos)  
+TailPOS is an offline-first mobile Point of Sale tablet application designed specifically to sync bi-directionally with ERPNext. Utilizing PouchDB/CouchDB offline sync, cashiers can continue processing sales and managing receipts during internet outages, syncing transactions back to the central ERP automatically upon reconnecting.  
+**Best for:** Retailers running ERPNext who operate in environments with unstable internet or need lightweight Android/iOS mobile POS tablets.
+
+### POS Awesome [![GitHub stars](https://img.shields.io/github/stars/ucraft-com/POS-Awesome?style=social&color=white)](https://github.com/ucraft-com/POS-Awesome/stargazers)
+**Stack:** Vue.js / Vuetify / Frappe Framework | **License:** MIT | **Repository:** [ucraft-com/POS-Awesome](https://github.com/ucraft-com/POS-Awesome)  
+POS Awesome is an enhanced, responsive Point of Sale application specifically designed to replace the standard ERPNext POS interface. It features full offline mode with local indexedDB storage, split tenders (cash, card, customer credit), customer loyalty points, return processing, cash drawer controls, and quick-order shortcut keys.  
+**Best for:** High-throughput retail stores running on ERPNext that require a much faster, touch-optimized, cashier-friendly terminal interface.
+
+### FinOpenPOS [![GitHub stars](https://img.shields.io/github/stars/JoaoHenriqueBarbosa/FinOpenPOS?style=social&color=white)](https://github.com/JoaoHenriqueBarbosa/FinOpenPOS/stargazers)
+**Stack:** Next.js 16 / React 19 / Turborepo / PGLite (Wasm Postgres) | **License:** MIT | **Repository:** [JoaoHenriqueBarbosa/FinOpenPOS](https://github.com/JoaoHenriqueBarbosa/FinOpenPOS)  
+FinOpenPOS represents the cutting edge of browser-native POS engineering, running on React 19 and Next.js 16 with an embedded WebAssembly PostgreSQL database (PGLite)—completely eliminating external database infrastructure dependencies. Built in a Turborepo monorepo, it includes multi-item checkout, inventory tracking, and a modular architecture with pluggable fiscal compliance modules (e.g., Brazilian NF-e/NFC-e).  
+**Best for:** Modern web developers wanting a zero-infrastructure POS baseline leveraging embedded client-side PostgreSQL and the newest React/Next.js stack.
+
+### SeoSamba POS [![GitHub stars](https://img.shields.io/github/stars/seotoaster-team/seotoaster?style=social&color=white)](https://github.com/seotoaster-team/seotoaster/stargazers)
+**Stack:** PHP / SeoToaster Core / iOS / Stripe Terminal | **License:** Free & Open Source (core engine) | **Repository:** [seotoaster-team/seotoaster](https://github.com/seotoaster-team/seotoaster)  
+SeoSamba POS connects physical in-store checkout counters with the open-source SeoToaster e-commerce and CRM platform. It provides centralized multi-location inventory sync, Stripe card reader / tap-to-pay compatibility across 195+ countries, automated receipt emailing, and omni-channel customer profile merging across physical retail stores and online storefronts.  
+**Best for:** Multi-location retail businesses seeking an integrated Stripe-native POS paired with an open-source CMS/CRM and e-commerce backbone.
 
 ---
 
 ## 📊 Comparison at a Glance
 
 | Software | License | Stack | Multi-Store | Inventory Sync | Self-Hosted | Best For |
-|----------|---------|-------|-------------|----------------|-------------|----------|
-| **Zoho POS** | Proprietary | Cloud | ✅ Centralized | ✅ Transfer orders | ❌ | Zoho ecosystem multi-location |
-| **Lightspeed** | Proprietary | Cloud | ✅ | ✅ Advanced | ❌ | Established inventory-heavy retailers |
-| **Shopify POS** | Proprietary | Cloud | ✅ 1,000+ locations | ✅ Omnichannel | ❌ | Online + physical unified |
-| **Square Retail** | Proprietary | Cloud | ✅ | ✅ Cross-location | ❌ | Free entry + cross-location returns |
-| **SeoSamba** | Open Source | iOS/Cloud | ✅ | ✅ Real-time | ✅ | Free OSS + Stripe omnichannel |
-| **ERPNext POS** | GPL-3.0 | Python/Frappe | ✅ (ERP) | ✅ | ✅ | ERPNext ecosystem |
-| **Odoo POS** | LGPL-3.0 | Python/Postgres | ✅ (ERP) | ✅ | ✅ | Odoo ERP ecosystem |
-| **OSPOS** | MIT (footer) | PHP/MySQL | (Basic) | (Basic) | ✅ | Lightweight PHP register |
-| **FinOpenPOS** | Open Source | Next.js/PGLite | (Check) | (Check) | ✅ | Modern zero-dependency POS |
+|---|---|---|---|---|---|---|
+| **Shopify POS** | Proprietary | Cloud | ✅ 1,000+ locations | ✅ Real-time omnichannel | ❌ | Unified physical store & online retail |
+| **Square Retail** | Proprietary | Cloud | ✅ Multi-location | ✅ Cross-location returns/fulfillment | ❌ | Free entry point + brick-and-mortar SMBs |
+| **Zoho POS** | Proprietary | Cloud | ✅ Centralized | ✅ Inter-store transfer orders | ❌ | Zoho CRM & Books ecosystem users |
+| **Brightpearl (Sage)** | Proprietary | Cloud | ✅ Multi-location | ✅ Real-time WMS & accounting | ❌ | High-volume multichannel & wholesale |
+| **Epicor Eagle** | Proprietary | Cloud / On-Prem | ✅ Multi-store chains | ✅ Enterprise stock optimization | ❌ (Hosted) | Hardware, lumber, automotive retail |
+| **Lightspeed Retail** | Proprietary | Cloud | ✅ Multi-location | ✅ Advanced replenishment | ❌ | High-SKU, inventory-heavy retailers |
+| **Cin7** | Proprietary | Cloud | ✅ Unlimited sites | ✅ 450+ 3PL/EDI/e-com channels | ❌ | Complex supply chains & multichannel brands |
+| **Odoo POS** | LGPL-3.0 | Python/Postgres | ✅ Multi-company | ✅ Warehouse replenishment sync | ✅ | Complete open-source ERP & POS integration |
+| **ERPNext POS** | GPL-3.0 | Python/Frappe | ✅ Multi-branch | ✅ Real-time ledger & inventory sync | ✅ | FOSS retail operations with accounting |
+| **OSPOS** | MIT (footer) | PHP/MySQL | (Basic) | (Basic manual) | ✅ | Lightweight self-hosted PHP register |
+| **NexoPOS** | GPL-3.0 | Laravel/Vue | ✅ Multi-outlet | ✅ Stock adjustments & PO tracking | ✅ | Modern modular Laravel-based retail |
+| **Store-POS** | MIT | Electron/React | (LAN Multi-terminal)| ✅ Local multi-terminal sync | ✅ (LAN) | Desktop retail with zero cloud dependency |
+| **Lakasir POS** | GPL-3.0 | Go/Vue/Flutter | (Single/Multi) | (Basic) | ✅ | Low-spec mobile/web micro-retail register |
+| **TailPOS** | GPL-3.0 | React Native/CouchDB | ✅ Via ERPNext | ✅ Offline-first PouchDB sync | ✅ | Mobile tablet POS with offline sync |
+| **POS Awesome** | MIT | Vue/Frappe | ✅ Via ERPNext | ✅ Offline-first IndexedDB sync | ✅ | Touch-optimized fast ERPNext cashier till |
+| **FinOpenPOS** | MIT | Next.js/PGLite | (Modular) | (Embedded Postgres) | ✅ | Modern zero-dependency Wasm POS baseline |
+| **SeoSamba POS** | FOSS / Commercial | PHP/iOS | ✅ Multi-location | ✅ Real-time catalog & orders | ✅ (Core) | Stripe-integrated omnichannel retail |
 
 ---
 
