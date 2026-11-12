@@ -1,11 +1,19 @@
 # Awesome Retail Management & Multi-Store POS Software
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS?style=social)](https://github.com/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS/stargazers)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Retail Management & Multi-Store POS Banner" width="100%" />
+</p>
 
-> A curated list of top **Retail Management Systems (RMS)** and **Multi-Store Point of Sale (POS)** platforms — featuring commercial cloud SaaS platforms and self-hosted open-source software for centralizing multi-outlet inventory, synchronizing omnichannel orders, and orchestrating retail checkout counters across locations.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome-Awesome-Awesome" /></a>
+  <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🛒 A curated list of top **Retail Management Systems (RMS)** and **Multi-Store Point of Sale (POS)** platforms — featuring commercial cloud SaaS platforms and self-hosted open-source software for centralizing multi-outlet inventory, synchronizing omnichannel orders, and orchestrating retail checkout counters across locations.
 
 🌟 **Star this repository** if you find it valuable for your retail tech stack research! 🌟
 
@@ -13,28 +21,31 @@
 
 ## 📋 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Shopify POS](#shopify-pos)
-  - [Square Retail](#square-retail)
-  - [Zoho POS](#zoho-pos)
-  - [Brightpearl (Sage)](#brightpearl)
-  - [Epicor Eagle](#epicor-eagle)
-  - [Lightspeed Retail (incl. Vend)](#lightspeed-retail-incl-vend)
-  - [Cin7](#cin7)
-- [Open-Source Software](#-open-source-software)
-  - [Odoo POS](#odoo-pos)
-  - [ERPNext POS](#erpnext-pos)
-  - [Open Source Point of Sale (OSPOS)](#open-source-point-of-sale-ospos)
-  - [NexoPOS](#nexopos)
-  - [Store-POS](#store-pos)
-  - [Lakasir POS](#lakasir-pos)
-  - [TailPOS](#tailpos)
-  - [POS Awesome](#pos-awesome)
-  - [FinOpenPOS](#finopenpos)
-  - [SeoSamba POS](#seosamba-pos)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+  - [🛍️ Shopify POS](#shopify-pos)
+  - [💳 Square Retail](#square-retail)
+  - [🏢 Zoho POS](#zoho-pos)
+  - [📦 Brightpearl (Sage)](#brightpearl)
+  - [🦅 Epicor Eagle](#epicor-eagle)
+  - [⚡ Lightspeed Retail (incl. Vend)](#lightspeed-retail-incl-vend)
+  - [🔄 Cin7](#cin7)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [🟣 Odoo POS](#odoo-pos)
+  - [🔵 ERPNext POS](#erpnext-pos)
+  - [🟢 Open Source Point of Sale (OSPOS)](#open-source-point-of-sale-ospos)
+  - [🟠 NexoPOS](#nexopos)
+  - [💻 Store-POS](#store-pos)
+  - [📱 Lakasir POS](#lakasir-pos)
+  - [📲 TailPOS](#tailpos)
+  - [✨ POS Awesome](#pos-awesome)
+  - [🐘 FinOpenPOS](#finopenpos)
+  - [🌐 SeoSamba POS](#seosamba-pos)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [🤝 Contributing](#-contributing)
+- [⭐ Star History](#-star-history)
+- [💖 Support](#-support)
+- [📄 License](#-license)
 
 ---
 
@@ -187,6 +198,23 @@ Contributions are welcome! If you know of an open-source Retail Management or Mu
 - Why it stands out
 
 Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between **modern full-stack POS applications** (SeoSamba POS, FinOpenPOS), **ERP-integrated POS modules** (ERPNext POS, Odoo POS) that gain multi-store capabilities from the broader ERP, and **lightweight PHP registers** (OSPOS). **SeoSamba POS** is the most purpose-built open-source option for multi-store retail with omnichannel sync, Stripe payments, and a free self-hosted deployment [citation:1][citation:13]. For organizations already running ERPNext or Odoo, their POS modules provide inventory and accounting integration that standalone POS tools cannot match, though they are general-retail rather than retail-specialized [citation:2].
+
+---
+
+##  Star History
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Retail-Management-Multi-Store-POS&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Retail-Management-Multi-Store-POS&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for visiting and using this curated directory of retail management and multi-store point-of-sale platforms! 🙌
+
+If this project saved you time, helped you evaluate POS architectures, or aided your business, please consider showing your support:
+- ⭐ **Star** this repository to help other merchants and software developers discover it.
+- 🍴 **Fork** and contribute new innovative retail POS tools or features.
+- 📢 **Share** this list with colleagues, engineering teams, and retail entrepreneurs.
+- ☕ **Buy me a coffee**: Support ongoing maintenance and open-source research via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
