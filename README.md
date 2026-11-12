@@ -9,7 +9,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome-Awesome-Awesome" /></a>
   <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
@@ -110,54 +110,54 @@ Epicor Eagle provides retail management including POS, inventory maintenance, pu
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Retail Management and Multi-Store POS tools sorted by GitHub star count. The open-source ecosystem spans **ERP-integrated retail and POS suites**, **modern full-stack web/desktop POS applications**, and **offline-first store cashiers**.
+Self-hosted, community-driven Retail Management and Multi-Store POS tools sorted by GitHub Stars_Count. The open-source ecosystem spans **ERP-integrated retail and POS suites**, **modern full-stack web/desktop POS applications**, and **offline-first store cashiers**.
 
-### Odoo POS [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
+### Odoo POS [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)
 **Stack:** Python / PostgreSQL / Owl.js | **License:** LGPL-3.0 (Community) | **Repository:** [odoo/odoo](https://github.com/odoo/odoo)  
 Odoo's Point of Sale module is an enterprise-grade POS application deeply wired into Odoo's broader ERP ecosystem. It natively supports multi-company and multi-warehouse stock replenishment, barcoded checkout, floor/table management for food service, split billing, customer loyalty, and offline operation with automatic sync once reconnected.  
 **Best for:** Organizations wanting a complete retail management ecosystem uniting multi-location retail registers with warehouse inventory, purchase orders, accounting, and CRM.
 
-### ERPNext POS [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
+### ERPNext POS [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)
 **Stack:** Python / Frappe Framework / MariaDB / Vue.js | **License:** GPL-3.0 | **Repository:** [frappe/erpnext](https://github.com/frappe/erpnext)  
 ERPNext provides a clean POS cashier workflow linked directly to real-time inventory ledger accounts, serial/batch tracking, multi-currency price lists, and automated POS invoice reconciliation. Opening and closing cashier shifts track cash-in-drawer variances, while multi-branch retailers benefit from centralized stock transfer orders and purchase replenishments.  
 **Best for:** Small to mid-sized multi-store retailers desiring a modern, 100% open-source ERP backbone with seamless inventory and ledger accounting.
 
-### Open Source Point of Sale (OSPOS) [![GitHub stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers)
+### Open Source Point of Sale (OSPOS) [![GitHub_Stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers)
 **Stack:** PHP / CodeIgniter / MySQL / Bootstrap | **License:** MIT (with footer requirement) | **Repository:** [opensourcepos/opensourcepos](https://github.com/opensourcepos/opensourcepos)  
 Open Source Point of Sale (OSPOS) is a proven, battle-tested web-based POS system designed for small retail counters. It offers catalog management, barcode generation, stock adjustments, customer gift cards, detailed cashier daily summaries, multi-tier user role permissions, and restaurant table modes.  
 **Best for:** Small retail stores and independent shops seeking a lightweight, straightforward LAMP-stack POS system that can be self-hosted on shared hosting or a local server.
 
-### NexoPOS [![GitHub stars](https://img.shields.io/github/stars/Blair2004/NexoPOS?style=social&color=white)](https://github.com/Blair2004/NexoPOS/stargazers)
+### NexoPOS [![GitHub_Stars](https://img.shields.io/github/stars/Blair2004/NexoPOS?style=social&color=white)](https://github.com/Blair2004/NexoPOS/stargazers)
 **Stack:** PHP / Laravel / Vue.js / Tailwind CSS / MySQL | **License:** GPL-3.0 | **Repository:** [Blair2004/NexoPOS](https://github.com/Blair2004/NexoPOS)  
 NexoPOS 4 is a modular web POS and retail management system engineered on modern Laravel and Vue.js. It features multi-store stock management, purchase orders, cash drawer reconciliation, customer layaway orders, procurement tracking, and an extensible module architecture for multi-outlet expansion.  
 **Best for:** Businesses wanting a dedicated, modern PHP/Laravel multi-store retail register with modular extensibility and clean responsive UI.
 
-### Store-POS [![GitHub stars](https://img.shields.io/github/stars/tngoman/Store-POS?style=social&color=white)](https://github.com/tngoman/Store-POS/stargazers)
+### Store-POS [![GitHub_Stars](https://img.shields.io/github/stars/tngoman/Store-POS?style=social&color=white)](https://github.com/tngoman/Store-POS/stargazers)
 **Stack:** Electron / React / Node.js / Express / SQLite | **License:** MIT | **Repository:** [tngoman/Store-POS](https://github.com/tngoman/Store-POS)  
 Store-POS is a modern desktop POS and store management suite built with Electron and React. Designed for local area network (LAN) operations, it connects multiple cashier terminals to a local central database server without cloud dependency, supporting barcode scanning, receipt printing, inventory stock logs, and multi-user roles.  
 **Best for:** Single-store or LAN-networked retail outlets wanting a fast, offline-resilient desktop cashier terminal with zero cloud latency.
 
-### Lakasir POS [![GitHub stars](https://img.shields.io/github/stars/lakasir/lakasir?style=social&color=white)](https://github.com/lakasir/lakasir/stargazers)
+### Lakasir POS [![GitHub_Stars](https://img.shields.io/github/stars/lakasir/lakasir?style=social&color=white)](https://github.com/lakasir/lakasir/stargazers)
 **Stack:** Go / Vue.js / Flutter / SQLite / MySQL | **License:** GPL-3.0 | **Repository:** [lakasir/lakasir](https://github.com/lakasir/lakasir)  
 Lakasir is a lightweight cross-platform point-of-sale platform providing mobile and web interfaces for small retail merchants. It features quick product lookup, transaction logging, simple invoice generation, thermal receipt printing, and cashier ledger reports designed for micro-retailers and market stalls.  
 **Best for:** Micro-retailers and pop-up stores needing an ultra-lightweight POS that runs quickly on low-spec hardware and mobile devices.
 
-### TailPOS [![GitHub stars](https://img.shields.io/github/stars/bailabs/tailpos?style=social&color=white)](https://github.com/bailabs/tailpos/stargazers)
+### TailPOS [![GitHub_Stars](https://img.shields.io/github/stars/bailabs/tailpos?style=social&color=white)](https://github.com/bailabs/tailpos/stargazers)
 **Stack:** React Native / CouchDB / PouchDB / Python (ERPNext sync) | **License:** GPL-3.0 | **Repository:** [bailabs/tailpos](https://github.com/bailabs/tailpos)  
 TailPOS is an offline-first mobile Point of Sale tablet application designed specifically to sync bi-directionally with ERPNext. Utilizing PouchDB/CouchDB offline sync, cashiers can continue processing sales and managing receipts during internet outages, syncing transactions back to the central ERP automatically upon reconnecting.  
 **Best for:** Retailers running ERPNext who operate in environments with unstable internet or need lightweight Android/iOS mobile POS tablets.
 
-### POS Awesome [![GitHub stars](https://img.shields.io/github/stars/ucraft-com/POS-Awesome?style=social&color=white)](https://github.com/ucraft-com/POS-Awesome/stargazers)
+### POS Awesome [![GitHub_Stars](https://img.shields.io/github/stars/ucraft-com/POS-Awesome?style=social&color=white)](https://github.com/ucraft-com/POS-Awesome/stargazers)
 **Stack:** Vue.js / Vuetify / Frappe Framework | **License:** MIT | **Repository:** [ucraft-com/POS-Awesome](https://github.com/ucraft-com/POS-Awesome)  
 POS Awesome is an enhanced, responsive Point of Sale application specifically designed to replace the standard ERPNext POS interface. It features full offline mode with local indexedDB storage, split tenders (cash, card, customer credit), customer loyalty points, return processing, cash drawer controls, and quick-order shortcut keys.  
 **Best for:** High-throughput retail stores running on ERPNext that require a much faster, touch-optimized, cashier-friendly terminal interface.
 
-### FinOpenPOS [![GitHub stars](https://img.shields.io/github/stars/JoaoHenriqueBarbosa/FinOpenPOS?style=social&color=white)](https://github.com/JoaoHenriqueBarbosa/FinOpenPOS/stargazers)
+### FinOpenPOS [![GitHub_Stars](https://img.shields.io/github/stars/JoaoHenriqueBarbosa/FinOpenPOS?style=social&color=white)](https://github.com/JoaoHenriqueBarbosa/FinOpenPOS/stargazers)
 **Stack:** Next.js 16 / React 19 / Turborepo / PGLite (Wasm Postgres) | **License:** MIT | **Repository:** [JoaoHenriqueBarbosa/FinOpenPOS](https://github.com/JoaoHenriqueBarbosa/FinOpenPOS)  
 FinOpenPOS represents the cutting edge of browser-native POS engineering, running on React 19 and Next.js 16 with an embedded WebAssembly PostgreSQL database (PGLite)—completely eliminating external database infrastructure dependencies. Built in a Turborepo monorepo, it includes multi-item checkout, inventory tracking, and a modular architecture with pluggable fiscal compliance modules (e.g., Brazilian NF-e/NFC-e).  
 **Best for:** Modern web developers wanting a zero-infrastructure POS baseline leveraging embedded client-side PostgreSQL and the newest React/Next.js stack.
 
-### SeoSamba POS [![GitHub stars](https://img.shields.io/github/stars/seotoaster-team/seotoaster?style=social&color=white)](https://github.com/seotoaster-team/seotoaster/stargazers)
+### SeoSamba POS [![GitHub_Stars](https://img.shields.io/github/stars/seotoaster-team/seotoaster?style=social&color=white)](https://github.com/seotoaster-team/seotoaster/stargazers)
 **Stack:** PHP / SeoToaster Core / iOS / Stripe Terminal | **License:** Free & Open Source (core engine) | **Repository:** [seotoaster-team/seotoaster](https://github.com/seotoaster-team/seotoaster)  
 SeoSamba POS connects physical in-store checkout counters with the open-source SeoToaster e-commerce and CRM platform. It provides centralized multi-location inventory sync, Stripe card reader / tap-to-pay compatibility across 195+ countries, automated receipt emailing, and omni-channel customer profile merging across physical retail stores and online storefronts.  
 **Best for:** Multi-location retail businesses seeking an integrated Stripe-native POS paired with an open-source CMS/CRM and e-commerce backbone.
