@@ -1,9 +1,13 @@
-# Awesome-Retail-Management-Multi-Store-POS
+# Awesome Retail Management & Multi-Store POS Software
 
-# Awesome Retail Management & Multi-Store POS
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS?style=social)](https://github.com/ishandutta2007/Awesome-Retail-Management-Multi-Store-POS/stargazers)
 
-> A curated list of top Retail Management and Multi-Store POS platforms — both SaaS/Hosted commercial solutions and open-source alternatives for unifying in-store sales, inventory, and customer data across locations.
-> 🌟 Star this repo if you find it useful! 🌟
+> A curated list of top **Retail Management Systems (RMS)** and **Multi-Store Point of Sale (POS)** platforms — featuring commercial cloud SaaS platforms and self-hosted open-source software for centralizing multi-outlet inventory, synchronizing omnichannel orders, and orchestrating retail checkout counters across locations.
+
+🌟 **Star this repository** if you find it valuable for your retail tech stack research! 🌟
 
 ---
 
@@ -188,8 +192,13 @@ Please ensure the project is actively maintained (releases within the last 12 mo
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This list is released under [CC0 1.0 Universal (Public Domain)](LICENSE). The respective software products, trademarks, and open-source projects listed remain the property and copyright of their respective authors and maintainers.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+### 🔍 Related Keywords & Tags
+`retail-management` • `point-of-sale` • `pos-system` • `multi-store-pos` • `multi-location-inventory` • `omnichannel-retail` • `open-source-pos` • `cloud-pos` • `retail-erp` • `cashier-till` • `inventory-management` • `awesome-list`
+
+---
+
+⭐ **If this list helped you discover a useful retail or POS tool, please star the repo!** ⭐
